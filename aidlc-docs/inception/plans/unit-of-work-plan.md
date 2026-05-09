@@ -61,6 +61,3 @@ X) Other (please describe after [Answer]: tag below)
 - [x] Generate unit-of-work-story-map.md — 機能要件とユニットのマッピング
 - [x] Document code organization strategy
 - [x] Validate unit boundaries and dependencies
-- [ ] Generate unit-of-work-story-map.md — 機能要件とユニットのマッピング
-- [ ] Document code organization strategy
-- [ ] Validate unit boundaries and dependencies

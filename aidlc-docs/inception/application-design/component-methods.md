@@ -30,7 +30,7 @@
 ### Outfit Recommendation Routes
 | Method | Endpoint | Input | Output | Purpose |
 |--------|----------|-------|--------|---------|
-| POST | `/api/outfit/recommend` | `{ date, events[], impression?, location? }` | `{ persona, outfit, reason, alternative }` | 服装提案生成 |
+| POST | `/api/outfit/recommend` | `{ date, events[], location? }` | `{ persona, outfit, reason, alternative }` | 服装提案生成 |
 | POST | `/api/outfit/regenerate` | `{ date, previousOutfitId, feedback? }` | `{ persona, outfit, reason, alternative }` | 別の提案を再生成 |
 | POST | `/api/outfit/accept` | `{ outfitId }` | `{ success }` | 提案を採用（着用履歴記録） |
 

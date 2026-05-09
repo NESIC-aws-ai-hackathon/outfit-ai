@@ -93,11 +93,9 @@ Phase 2: CONSTRUCTION (per unit)
 - [x] Workspace Detection (COMPLETED)
 - [x] Requirements Analysis (COMPLETED)
 - [x] User Stories (SKIPPED — ハッカソン2-3日、ユーザーが選択しなかった)
-- [x] Workflow Planning (IN PROGRESS)
-- [ ] Application Design - **EXECUTE**
-  - **Rationale**: 新規サービスのため、コンポーネント構成・サービスレイヤー・API設計が必要
-- [ ] Units Generation - **EXECUTE**
-  - **Rationale**: フロントエンド・バックエンド・AI連携・インフラと複数ユニットに分解が必要
+- [x] Workflow Planning (COMPLETED)
+- [x] Application Design (COMPLETED)
+- [x] Units Generation (COMPLETED)
 
 ### 🟢 CONSTRUCTION PHASE (per unit)
 - [ ] Functional Design - **EXECUTE**
