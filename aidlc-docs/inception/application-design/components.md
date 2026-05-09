@@ -12,10 +12,10 @@
 - **インターフェース**: CRUD画面 + 画像アップロードUI
 - **備考**: 写真アップロード時にAIタグ補助を同期/非同期で処理
 
-### 1.3 Daily Input Module
-- **責務**: 日次コンテキスト入力UI（予定入力・Google Calendar表示）
+### 1.3 Daily Context Module
+- **責務**: 日次コンテキスト取得UI（Google Calendar自動取得 + 手動追加・編集）
 - **インターフェース**: フォームUI + カレンダー連携表示
-- **備考**: Google Calendar APIからの予定自動取得と手動入力の両対応
+- **備考**: Google Calendar APIからの予定自動取得を基本とし、手動での追加・編集にも対応
 
 ### 1.4 Outfit Recommendation Module
 - **責務**: AI服装提案の表示UI（今日の人格・推奨コーデ・提案理由・代替案・再生成）

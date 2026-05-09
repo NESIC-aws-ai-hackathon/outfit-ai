@@ -6,7 +6,7 @@
 
 ### サービス概要
 
-ユーザーは手持ち服を登録し、当日の予定（Google Calendar取得または手動補足）を入力する。AIは天気、気温、降水確率、予定内容、移動量、過去の着用履歴を統合し、「どう見られるべきか」も含めた“今日の人格”を自動で生成する。
+ユーザーは手持ち服を登録し、当日の予定はGoogle Calendarから自動取得される（手動での追加・編集も可能）。AIは天気、気温、降水確率、予定内容、移動量、過去の着用履歴を統合し、「どう見られるべきか」も含めた“今日の人格”を自動で生成する。
 
 たとえば顧客訪問なら「信頼感のある人」、展示会なら「動ける人」、デートなら「やわらかく見える人」として、手持ち服から服装を決定し、選定理由・除外理由も提示する。
 
@@ -41,7 +41,7 @@ Browser (React/Next.js) → BFF (Next.js API Routes) → Core API (FastAPI) → 
 ### Frontend (Next.js)
 - **Auth Module**: 認証UI
 - **Closet Module**: クローゼット管理UI
-- **Daily Input Module**: 日次コンテキスト入力UI（Calendar連携含む）
+- **Daily Context Module**: 日次コンテキスト取得UI（Calendar連携含む）
 - **Outfit Recommendation Module**: 提案表示・再生成UI
 - **BFF API Routes**: フロントエンド用ゲートウェイ
 

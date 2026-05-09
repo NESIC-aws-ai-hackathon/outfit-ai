@@ -92,7 +92,7 @@
 |---------|---------|--------|--------|------|
 | **FR-001: ユーザー認証** | Unit 1: Auth | 登録・ログインページ | Auth Service | JWT管理、パスワードハッシュ化 |
 | **FR-002: クローゼット管理** | Unit 2: Closet | クローゼットCRUD画面 | Closet Service | 画像アップロード、AIタグ付け(同期/非同期) |
-| **FR-003: 日次コンテキスト取得** | Unit 3: Calendar | 予定取得・Calendar表示 | Calendar Service | Google Calendar連携 + 手動フォールバック |
+| **FR-003: 日次コンテキスト取得** | Unit 3: Calendar | 予定取得・Calendar表示 | Calendar Service | Google Calendar自動取得 + 手動追加・編集 |
 | **FR-004: 天気情報取得** | Unit 4: Weather | 天気表示UI | Weather Service | OpenWeatherMap API, 15分キャッシュ |
 | **FR-005: AI服装提案** | Unit 5: Outfit | 提案表示・再生成UI | Outfit Recommendation Service | Bedrock(Claude), コンテキスト統合 |
 | **FR-006: 着用履歴管理** | Unit 5: Outfit | 「採用」ボタンUI | Wear History Service | 直前着用追跡、連続回避 |
@@ -124,7 +124,7 @@
 |------|--------|------|
 | Google OAuth連携 | 必須 | 読み取り専用スコープ |
 | 今日の予定取得 | 必須 | 当日の予定一覧 |
-| 予定の手動入力 | 必須 | フォールバック用 |
+| 予定の手動入力 | 必須 | 手動での追加・編集用 |
 | トークンリフレッシュ | 必須 | 自動リフレッシュ |
 
 ### Unit 4: Weather
